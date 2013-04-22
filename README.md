@@ -21,9 +21,10 @@ Expected output
 
 To get this application working locally
 =============
-git clone git://github.com/tnh/simple-sinatra-app.git
-shell $ bundle install
-shell $ bundle exec rackup
+
+    git clone git://github.com/tnh/simple-sinatra-app.git
+    shell $ bundle install
+    shell $ bundle exec rackup
 
 Mod passenger:
 http://www.modrails.com/documentation/Users%20guide%20Apache.html
