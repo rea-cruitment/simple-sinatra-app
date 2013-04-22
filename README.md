@@ -17,3 +17,17 @@ Expected output
 - chef / puppet  / ansible / babushka  / shell scripts that we can use to deploy the following application
 
  
+
+
+To get this application working locally
+=============
+git clone git://github.com/tnh/simple-sinatra-app.git
+shell $ bundle install
+shell $ bundle exec rackup
+
+Mod passenger:
+http://www.modrails.com/documentation/Users%20guide%20Apache.html
+
+Unicorn nginx:
+http://sirupsen.com/setting-up-unicorn-with-nginx/
+
