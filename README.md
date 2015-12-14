@@ -1,34 +1,23 @@
-REA site performance pre-interview task
+REA Site Performance & Availability Engineer pre-interview task
 =============
 
-
-Provision a new application server and deploy the following application
+Provision a new application server and deploy the application in this Git repository
 -------
-write configuration as code recipes in chef / puppet / ansible / babushka  / shell scripts to
-- deploy this application onto a vanilla OS image (Centos/Fedora/Ubuntu/Debian/RHEL)
-- use apache modpassenger  / unicorn nginx or whatever you like to serve up the application on port 80
-- provision a web server with ruby to deploy the packaged Sinatra application
-- ensure that the server is locked down and secure
-- deploy the hello world application
-
+- write configuration-as-code recipes (using your preferred orchestration software) to:
+  - configure an OS image (your choice) appropriately.
+  - deploy the provided application.
+  - make the application available on port 80.
+  - ensure that the server is locked down and secure.
+- provide documentation.
 
 Expected output
 -------------
-- chef / puppet  / ansible / babushka  / shell scripts that we can use to deploy the following application
+- scripts and/or configuration that we can use to deploy the application.
+- documentation.
 
- 
-
-
-To get this application working locally
+To get the provided application working locally
 =============
 
     git clone git://github.com/tnh/simple-sinatra-app.git
     shell $ bundle install
     shell $ bundle exec rackup
-
-Mod passenger:
-http://www.modrails.com/documentation/Users%20guide%20Apache.html
-
-Unicorn nginx:
-http://sirupsen.com/setting-up-unicorn-with-nginx/
-
