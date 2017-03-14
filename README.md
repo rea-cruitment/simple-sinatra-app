@@ -4,13 +4,14 @@ REA Systems Engineer practical task
 Provision a new application server and deploy the application in this Git repository
 ------------------------------------------------------------------------------------
 - Write configuration-as-code recipes (using your preferred orchestration software) to:
+  - Create the server (can be local VM or AWS based)
   - Configure an OS image (your choice) appropriately.
   - Deploy the provided application.
   - Make the application available on port 80.
   - Ensure that the server is locked down and secure.
 - Provide documentation:
-  - If not scripted, how does the reviewer get the deployment to run from their computer?
-  - Requirements for running? (AWS account? Base images? Other tooling pre-installed?)
+  - Instructions for the reviewer which explain how your code should be executed
+  - Requirements for running. (AWS account? Base images? Other tooling pre-installed?)
   - Explanation of assumptions and design choices.
 
 Expected output
